@@ -75,7 +75,7 @@ def get_webhook_details(webhook_url):
         time.sleep(0.1)
         print(f" ║ {Fore.BLUE}[!]{Fore.WHITE} channel-ID: {channel_id} ║")
         time.sleep(0.1)
-        print(f" ║ {Fore.BLUE}[!]{Fore.WHITE} server-ID: {guild_id}  ║")
+        print(f" ║ {Fore.BLUE}[!]{Fore.WHITE} server-ID:  {guild_id} ║")
         time.sleep(0.1)
         print(f" ╚═════════════════════════════════════╝")
         time.sleep(0.1)
