@@ -1,3 +1,5 @@
+# you are free to edit this how ever you want but pls give me credit if you do!
+
 import time, requests, os, sys
 from pystyle import Colorate, Colors
 from colorama import Fore
