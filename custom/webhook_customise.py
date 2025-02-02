@@ -25,7 +25,6 @@ def update_name(webhook_url, new_name):
     headers = {"Content-Type": "application/json"}
     response = requests.patch(webhook_url, json=payload, headers=headers)
     if response.status_code == 200:
-        successful_commands += 1
         print(f"{Fore.GREEN}[!]{Fore.WHITE} Webhook name updated!")
     else:
         print(f"{Fore.RED}[!]{Fore.WHITE} Something went wrong: {response.status_code} - {response.text}")
@@ -47,7 +46,6 @@ def changepfp(webhook_url):
         }
         response = requests.patch(webhook_url, json=data)
         response.raise_for_status()
-        successful_commands += 1
         print(f"{Fore.GREEN}[!]{Fore.WHITE} Profile picture changed successfully.")
     except Exception as e:
         print(f"{Fore.RED}[!]{Fore.WHITE} Error: {e}")

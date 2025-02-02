@@ -10,12 +10,12 @@ set_window_title("MOON SPAMMER - BY NOKONIKO ON GITHUB")
 os.system("cls" if os.name == "nt" else "clear")
 
 gui  = """
-                                        [!] -i. Webhook info
-                                        [!] -s. Spam webhook
-                                        [!] -d. Delete webhook
-                                        [!] -r. Rename the webhook
-                                        [!] -p. Change the webhook pfp          
-                                        [!]  exit. Exits the program
+                                    [!] -i. Webhook info
+                                    [!] -s. Spam webhook
+                                    [!] -d. Delete webhook
+                                    [!] -r. Rename the webhook
+                                    [!] -p. Change the webhook pfp          
+                                    [!]  exit. Exits the program
                     
                     """
 
