@@ -1,7 +1,6 @@
 import requests, time
 from colorama import Fore
 
-successful_commands = 0
 
 def main(webhook_url, delay, amount, message):
     global successful_commands
@@ -18,7 +17,6 @@ def main(webhook_url, delay, amount, message):
             except Exception as e:
                 print(f"{Fore.RED}[!] Error: {e}")
             time.sleep(float(delay))
-            counter += 1
         print(f"{Fore.GREEN}[!] Done.")
     except KeyboardInterrupt:
         print(f"\n{Fore.GREEN}[!]{Fore.WHITE} Spam stopped by user. Total messages sent: {counter}")
