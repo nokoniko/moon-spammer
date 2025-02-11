@@ -1,4 +1,6 @@
-import os, time
+import os
+import time
+import sys
 
 def set_window_title(title):
     if os.name == 'nt':
